@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS__DOM</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <script src="./script.js"></script>
+  <div>
+    <ol class="song-list"></ol>
+  </div>
+
+  <div>
+    <dialog id="dialog">
+      <form method="dialog">
+        <p>The lyrics should be here</p>
+        <button>Close</button>
+      </form>
+    </dialog>
+
+    <p>
+      <button id="showDialog">Open</button>
+    </p>
+
+  </div>
+
+  <div>
+    <div class="traffic-light">
+      <span class="red"></span>
+      <span class="yellow"></span>
+      <span class="green"></span>
+    </div>
+    <button id="changeColor">Клік</button>
+  </div>
+
 </body>
+
+<script src="./script.js"></script>
+
 </html>
